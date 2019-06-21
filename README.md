@@ -12,3 +12,8 @@ svgファイルを読み込み、それに関する情報の取得と操作を�
 adobe Animate CCで作成したスプライトシートとJSONを読み込み、それに関する情報の取得と操作を司るJSクラス
 
 [DEMO](https://tktr90755.github.io/vue-spritesheet-player/) 
+
+# tktr90755.github.io/vue-gltf-player
+Three.jsでGLTF読み込みを試した。
+
+[DEMO](https://tktr90755.github.io/vue-gltf-player/) 
