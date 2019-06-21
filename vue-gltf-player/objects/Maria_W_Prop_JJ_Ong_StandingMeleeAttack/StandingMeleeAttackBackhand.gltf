@@ -8747,25 +8747,18 @@
     "buffers" : [
         {
             "byteLength" : 1719060,
-            "uri" : "Standing Melee Attack Backhand.bin"
+            "uri" : "StandingMeleeAttackBackhand.bin"
         }
     ],
     "images" : [
         {
             "name" : "file9",
             "uri" : "file9.png"
-        },
-        {
-            "name" : "file11",
-            "uri" : "file11.png"
         }
     ],
     "materials" : [
         {
             "name" : "MariaMat",
-            "normalTexture" : {
-                "index" : 1
-            },
             "pbrMetallicRoughness" : {
                 "baseColorFactor" : [
                     0.800000011920929,
@@ -8781,9 +8774,6 @@
         },
         {
             "name" : "MariaMat.001",
-            "normalTexture" : {
-                "index" : 1
-            },
             "pbrMetallicRoughness" : {
                 "baseColorFactor" : [
                     0.800000011920929,
@@ -10417,10 +10407,6 @@
         {
             "sampler" : 0,
             "source" : 0
-        },
-        {
-            "sampler" : 0,
-            "source" : 1
         }
     ]
 }
