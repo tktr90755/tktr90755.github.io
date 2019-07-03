@@ -22,3 +22,8 @@ Three.jsでGLTF読み込みを試した。
 イテレータークラスとその使用例を実装した。
 
 [DEMO](https://tktr90755.github.io/vue-iterator/) 
+
+# tktr90755.github.io/vue-random-text
+ランダムテキストとその使用例を実装した。
+
+[DEMO](https://tktr90755.github.io/vue-random-text/) 
