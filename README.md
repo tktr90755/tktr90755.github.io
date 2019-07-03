@@ -17,3 +17,8 @@ adobe Animate CCで作成したスプライトシートとJSONを読み込み、
 Three.jsでGLTF読み込みを試した。
 
 [DEMO](https://tktr90755.github.io/vue-gltf-player/) 
+
+# tktr90755.github.io/vue-iterator
+イテレータークラスとその使用例を実装した。
+
+[DEMO](https://tktr90755.github.io/vue-iterator/) 
