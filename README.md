@@ -27,3 +27,8 @@ Three.jsでGLTF読み込みを試した。
 ランダムテキストとその使用例を実装した。
 
 [DEMO](https://tktr90755.github.io/vue-random-text/) 
+
+# tktr90755.github.io/vue-sound-spectrum
+サウンドスペクトラムとその使用例を実装した。
+
+[DEMO](https://tktr90755.github.io/vue-sound-spectrum/) 
