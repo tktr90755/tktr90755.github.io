@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ApexCharts 円グラフ</title>
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+</head>
+<body>
+    <div id="chart"></div>
+
+    <script>
+        var options = {
+            series: [44, 55, 13],
+            chart: {
+                width: 380,
+                type: 'donut',
+            },
+            plotOptions: {
+                pie: {
+                    donut: {
+                        size: '50%'  // 内径のサイズ（0%から90%まで設定可能）
+                    }
+                }
+            },
+            stroke: {
+                width: 0  // 境界線の幅を0に設定
+            },
+            labels: ['商品A', '商品B', '商品C'],
+            responsive: [{
+                breakpoint: 480,
+                options: {
+                    chart: {
+                        width: 200
+                    },
+                    legend: {
+                        position: 'bottom'
+                    }
+                }
+            }]
+        };
+
+        var chart = new ApexCharts(document.querySelector("#chart"), options);
+        chart.render();
+    </script>
+</body>
+</html>
